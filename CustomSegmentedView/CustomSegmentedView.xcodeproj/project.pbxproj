@@ -14,6 +14,8 @@
 		B39B75141A1C652E0089D2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39B75131A1C652E0089D2F3 /* Images.xcassets */; };
 		B39B75171A1C652E0089D2F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39B75151A1C652E0089D2F3 /* LaunchScreen.xib */; };
 		B39B75231A1C652E0089D2F3 /* CustomSegmentedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B39B75221A1C652E0089D2F3 /* CustomSegmentedViewTests.m */; };
+		B39B752E1A1C661E0089D2F3 /* CustomSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39B752D1A1C661E0089D2F3 /* CustomSegmentedView.m */; };
+		B39B75301A1C66340089D2F3 /* CustomSegmentedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39B752F1A1C66340089D2F3 /* CustomSegmentedView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		B39B751C1A1C652E0089D2F3 /* CustomSegmentedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegmentedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39B75211A1C652E0089D2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B39B75221A1C652E0089D2F3 /* CustomSegmentedViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentedViewTests.m; sourceTree = "<group>"; };
+		B39B752C1A1C661E0089D2F3 /* CustomSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentedView.h; sourceTree = "<group>"; };
+		B39B752D1A1C661E0089D2F3 /* CustomSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentedView.m; sourceTree = "<group>"; };
+		B39B752F1A1C66340089D2F3 /* CustomSegmentedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSegmentedView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				B39B750D1A1C652E0089D2F3 /* ViewController.h */,
 				B39B750E1A1C652E0089D2F3 /* ViewController.m */,
 				B39B75101A1C652E0089D2F3 /* Main.storyboard */,
+				B39B752C1A1C661E0089D2F3 /* CustomSegmentedView.h */,
+				B39B752D1A1C661E0089D2F3 /* CustomSegmentedView.m */,
+				B39B752F1A1C66340089D2F3 /* CustomSegmentedView.xib */,
 				B39B75131A1C652E0089D2F3 /* Images.xcassets */,
 				B39B75151A1C652E0089D2F3 /* LaunchScreen.xib */,
 				B39B75061A1C652E0089D2F3 /* Supporting Files */,
@@ -201,6 +209,7 @@
 			files = (
 				B39B75121A1C652E0089D2F3 /* Main.storyboard in Resources */,
 				B39B75171A1C652E0089D2F3 /* LaunchScreen.xib in Resources */,
+				B39B75301A1C66340089D2F3 /* CustomSegmentedView.xib in Resources */,
 				B39B75141A1C652E0089D2F3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				B39B750F1A1C652E0089D2F3 /* ViewController.m in Sources */,
 				B39B750C1A1C652E0089D2F3 /* AppDelegate.m in Sources */,
+				B39B752E1A1C661E0089D2F3 /* CustomSegmentedView.m in Sources */,
 				B39B75091A1C652E0089D2F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
